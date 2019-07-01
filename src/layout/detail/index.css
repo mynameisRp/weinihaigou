@@ -1,0 +1,22 @@
+.details-wrap .search, .details-wrap .shopCar {
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    background: #000;
+    margin-right: .4rem;
+}
+
+.details-wrap .search {
+    background: url("../../static/header-search.png") no-repeat center;
+    background-size: .66rem;
+}
+
+
+.details-wrap .shopCar {
+    background: url("../../static/header-shopping.png") no-repeat center;
+    background-size: .66rem;
+}
+
+.details-wrap .title  .icon{
+
+}

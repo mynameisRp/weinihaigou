@@ -1,0 +1,39 @@
+
+.overvalue{
+    margin: .6rem 0;
+    background: #fff;
+}
+
+.overvalue-wrap {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: .3rem;
+}
+
+.overvalue-wrap .overvalue-item-wrap {
+    display: flex;
+}
+
+.overvalue-wrap .overvalue-item-wrap .overvalue-item {
+    flex-shrink: 0;
+    width: 3rem;
+    padding-left: .2rem;
+}
+
+.overvalue-wrap .overvalue-item-wrap .overvalue-item .text{
+    font-size: .34rem;
+    color: #333;
+}
+
+
+.overvalue-wrap .overvalue-item-wrap .overvalue-item .text .goodsName{
+    display: block;
+    width: 2.5rem;
+    margin-top:.2rem; 
+}
+
+
+.overvalue-wrap .overvalue-item-wrap .overvalue-item .text .price{
+    color: #ef4430;
+}

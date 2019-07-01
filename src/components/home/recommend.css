@@ -1,0 +1,12 @@
+.subject-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .4rem;
+    background: #f8f9fc;
+}
+
+
+.subject-wrap .subject-item{
+    width: 50%;
+    border:1px solid #ebebeb;
+}

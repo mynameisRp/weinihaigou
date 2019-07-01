@@ -1,0 +1,33 @@
+.classHeader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff url("../../static/logo.png") no-repeat center;
+    background-size: 2.4rem;
+    width: 100%;
+    height: 1.3rem;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 999;
+}
+
+.classHeader .search, .classHeader .shopCar {
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    background: #000;
+    margin-right: .4rem;
+}
+
+.classHeader .search{
+    background: url("../../static/header-search.png") no-repeat center;
+    background-size: .66rem;
+}
+
+
+.classHeader .shopCar {
+    background: url("../../static/header-shopping.png") no-repeat center;
+    background-size: .66rem;
+}

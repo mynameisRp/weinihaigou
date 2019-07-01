@@ -1,0 +1,52 @@
+.tabBar-wrap{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 1.36rem;
+    border-top: 1px solid #ebebeb;
+    align-items: center;
+}
+
+
+.tabBar-wrap .tabBar_item{
+    font-size: .34rem;
+    color: #a9a9a9;
+}
+
+
+.tabBar-wrap .tabBar_item .icon{
+    display: block;
+    width: .7rem;
+    height: .7rem;
+    background: url(../static/icon4.png) no-repeat .18rem -4.5rem / 7.8rem 7.8rem;
+    background-position: 0 0;
+}
+
+.tabBar-wrap .tabBar_item:nth-of-type(1) .icon{
+    background-position: -0.02rem -4.56rem;
+}
+
+.tabBar-wrap .tabBar_item:nth-of-type(2) .icon {
+    background-position: -1.36rem -4.56rem;
+}
+
+.tabBar-wrap .tabBar_item:nth-of-type(3) .icon {
+    background-position: -2.7rem -4.56rem;
+}
+
+.tabBar-wrap .tabBar_item:nth-of-type(4) .icon {
+    background-position: -4.2rem -4.56rem;
+}
+
+
+.tabBar-wrap .tabBar_item.active .icon {
+    background-position-y: -5.84rem;
+}
+
+.tabBar-wrap .tabBar_item.active {
+    color:#f05b1a;  
+}

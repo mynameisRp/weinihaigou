@@ -1,0 +1,11 @@
+.classification-wrap{
+    height: 100%;
+    background: #fff;
+}
+
+.con-wrap{
+    padding-top: 1.3rem; 
+    background: #fff;
+    height: max-content;
+    display: flex;
+}

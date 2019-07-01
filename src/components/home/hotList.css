@@ -1,0 +1,70 @@
+.goods-wrap{
+    background: #fff; 
+    padding-bottom: 1.4rem;
+}
+
+.goods-wrap .goods-title span {
+    display: block;
+    width: 100%;
+    height: 1rem;
+    background: url("../../static/icon4.png") no-repeat 2.62rem -3.06rem / 7.8rem 7.9rem;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.goods-wrap .goods{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.goods-wrap .goods .goodsItem:nth-of-type(odd){
+    border-right:1px solid #ebebeb;
+}
+
+
+
+.goods-wrap .goods .goodsItem{
+    width: 50%;
+    border-bottom: 1px solid #ebebeb;
+    height: 7.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: .4rem;
+}
+
+.goods-wrap .goods .goodsItem .delivery {
+    font-size: .3rem;
+    color: #808080;
+}
+
+.goods-wrap .goods .goodsItem .goodsName{
+    font-size: .4rem;
+    color: #4d4d4d;
+    height: 1rem;
+    line-height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+.goods-wrap .goods .goodsItem .goodsPrice{
+    font-size: .4rem;
+    color: #f34f34;
+}
+
+.goods-wrap .goods .goodsItem .oldPrice{
+    color: #b6bbc1;
+    text-decoration: line-through;
+    margin-left: .4rem;
+}
+
+
+.end{
+    color: #c4c4c4;
+    font-size:.3rem;
+    text-align: center;
+    line-height: 1rem;
+}

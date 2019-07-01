@@ -1,0 +1,52 @@
+.classify-wrap{
+    width: 100%;
+    height: max-content;
+    margin-left:2.8rem; 
+    position: relative;
+    padding-left: .2rem;
+    background: #ffffff;
+    padding-bottom: 1.88rem;
+}
+
+
+.classify-wrap .nodata{
+    position: absolute;
+    top: 1.2rem;
+    left: .8rem;
+}
+
+
+.classify-wrap .classify-item{
+    width: 100%;
+    height: max-content;
+    padding-top: .6rem;
+    background: #fff;
+}
+
+.classify-wrap .classify-item h2{
+    font-size: .46rem;
+}
+
+
+.classify-wrap .classify-item ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.classify-wrap .classify-item ul li{
+    width: 33.3%;
+    margin-top: .2rem;
+    padding: .2rem;
+}
+
+.classify-wrap .classify-item ul li img{
+    width: 100%;
+}
+
+.classify-wrap .classify-item ul li p{
+    font-size: .3rem;
+    text-align: center;
+    line-height: .8rem;
+}
